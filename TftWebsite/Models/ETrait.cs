@@ -1,0 +1,34 @@
+﻿namespace TftWebsite.Models
+{
+    public enum ETrait
+    {
+        Bilgewater,
+        Darkin,
+        Demacia,
+        Freljord,
+        Ionia,
+        Ixtal,
+        Noxus,
+        Piltover,
+        Shurima,
+        Targon,
+        Void,
+        Wanderer,
+        Zaun,
+        Bastion,
+        Bruiser,
+        Challenger,
+        Empress,
+        Gunner,
+        Invoker,
+        Juggernaut,
+        Multicaster,
+        ReaverKing,
+        Rogue,
+        Slayer,
+        Sorcerer,
+        Strategist,
+        Technogenius,
+        Vanquisher
+    }
+}
