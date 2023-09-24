@@ -18,7 +18,11 @@ namespace TftWebsite.Controllers
             return View("Index");
         }
 
+        public IActionResult TeamPlanner()
+        {
+            return View("TeamPlanner");
 
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
