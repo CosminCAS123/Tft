@@ -18,9 +18,11 @@ namespace TftWebsite.Controllers
             return View("Index");
         }
 
+
+        [Route("TeamPlanner")]
         public IActionResult TeamPlanner()
         {
-            return View("TeamPlanner");
+            return View("Views/TeamPlanner/Create.cshtml");
 
         }
 
